@@ -188,6 +188,37 @@
       text-decoration: underline;
     }
 
+    .deletion-card {
+      background: rgba(239, 68, 68, 0.08);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      border-radius: 12px;
+      padding: 1.1rem 1.35rem;
+      margin-top: 0.85rem;
+    }
+
+    .deletion-card p {
+      margin: 0 0 0.75rem 0;
+      font-size: 0.9rem;
+      color: #e4e4e7;
+    }
+
+    .delete-btn {
+      display: inline-block;
+      background: #dc2626;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.55rem 1.15rem;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .delete-btn:hover {
+      background: #b91c1c;
+      text-decoration: none;
+    }
+
     .contact-box {
       background: var(--bg-highlight);
       border: 1px solid var(--border-color);
@@ -199,7 +230,7 @@
     }
 
     .contact-box div {
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.35rem;
     }
 
     .contact-box div:last-child {
@@ -321,12 +352,18 @@
         </ul>
       </section>
 
-      <section>
+      <section id="account-deletion">
         <h2><span class="num">5.</span> Data Retention &amp; Account Deletion</h2>
         <ul>
           <li><strong>Local Data:</strong> You can delete your local songs, playlists, and cached files at any time within the app or by clearing your app or browser storage.</li>
-          <li><strong>Cloud Data:</strong> If you created an account and wish to delete your account and all associated cloud-synced statistics, please contact us at <strong>[Insert Your Support Email Address]</strong> and we will permanently delete your data from Firebase within 7 days.</li>
+          <li><strong>Cloud Data:</strong> If you created an optional sync account, we retain your cloud-synced statistics until you request deletion.</li>
         </ul>
+        <div class="deletion-card">
+          <p><strong>How to Delete Your Account:</strong> Click the button below to open a pre-filled deletion request email to <strong>lalalalalaronald@gmail.com</strong>. We will permanently delete your Firebase account and all associated cloud-synced data within 7 days.</p>
+          <a class="delete-btn" href="mailto:lalalalalaronald@gmail.com?subject=Account%20Deletion%20Request%20%E2%80%94%20MP3%20Vision&body=Hello%20BPHE%20Studio%2C%0A%0APlease%20permanently%20delete%20my%20MP3%20Vision%20account%20and%20all%20associated%20cloud-synced%20data.%0A%0ARegistered%20Account%20Email%3A%20%5BEnter%20your%20account%20email%20here%5D%0A%0AThank%20you.">
+            Request Account Deletion via Email
+          </a>
+        </div>
       </section>
 
       <section>
@@ -339,6 +376,15 @@
         <p>We may update this Privacy Policy from time to time. Any updates will be reflected by updating the "Effective Date" at the top of this policy.</p>
       </section>
 
+      <section>
+        <h2><span class="num">8.</span> Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or your data, contact us at:</p>
+        <div class="contact-box">
+          <div><strong>Developer:</strong> BPHE Studio</div>
+          <div><strong>Email:</strong> <a href="mailto:lalalalalaronald@gmail.com">lalalalalaronald@gmail.com</a></div>
+          <div><strong>Account Deletion:</strong> <a href="mailto:lalalalalaronald@gmail.com?subject=Account%20Deletion%20Request%20%E2%80%94%20MP3%20Vision&body=Hello%20BPHE%20Studio%2C%0A%0APlease%20permanently%20delete%20my%20MP3%20Vision%20account%20and%20all%20associated%20cloud-synced%20data.%0A%0ARegistered%20Account%20Email%3A%20%5BEnter%20your%20account%20email%20here%5D%0A%0AThank%20you.">Send Account Deletion Request</a></div>
+        </div>
+      </section>
     </article>
   </main>
 
